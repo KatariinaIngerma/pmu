@@ -1,0 +1,26 @@
+.bg-menu-bg {
+    background-color: #1a1a1a;
+}
+.text-gold-custom {
+    color: #ECDF8F;
+}
+
+.text-gray-custom {
+    color: #787878;
+}
+.border-gold-custom {
+    border-color: #ECDF8F;
+}
+.bg-body-gray {
+    background-color: #232323;
+}
+
+.seasons {
+    font-family: 'The Seasons', serif;
+}
+.font-spectral {
+    font-family: 'Spectral', serif;
+    font-weight: 300;
+    letter-spacing: 0.1em;
+}
+

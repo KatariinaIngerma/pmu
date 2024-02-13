@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kadri Ingerma</title>
+    <!-- Add Tailwind CSS CDN link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Spectral:wght@300&display=swap"
+      rel="stylesheet"
+    />
+
+    <link href="css/style.css" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-body-gray h-screen overflow-y-auto">
+    <!-- Navigation menu for desktop -->
+    <header class="bg-menu-bg flex items-center justify-between px-4 py-2">
+      <!--Logo-->
+      <img src="res/no-bg-logo.png" alt="Logo" class="h-8 mb-2" />
+      <nav
+        class="text-center justify-center hidden md:block text-xl text-gray-custom p-5 font-light"
+      >
+        <a href="#Avaleht" class="hover:text-white mx-2">avaleht</a>
+        <a href="#Hinnakiri" class="hover:text-white mx-2">hinnakiri</a>
+        <a href="#Portfoolio" class="hover:text-white mx-2">portfoolio</a>
+        <a href="#Kontakt" class="hover:text-white mx-2">kontakt</a>
+      </nav>
+      <a
+        href="https://app.booklux.com/book/kadri-ingerma-pusimeik"
+        target="_blank"
+        class="hidden md:block border border-gold-custom text-gray-custom font-light text-xl px-4 py-2 transform transition duration-300 ease-in-out hover:scale-110"
+      >
+        Broneeri
+      </a>
+
+      <!--Navigation menu for mobile-->
+      <div class="md:hidden flex justify-end pr-4">
+        <button id="menu-toggle" class="text-gold-custom focus:outline-none">
+          <svg
+            class="w-6 h-6"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M4 6h16M4 12h16M4 18h16"
+            ></path>
+          </svg>
+        </button>
+      </div>
+    </header>
+    <!-- Banner Section -->
+    <section class="relative bg-cover">
+      <!-- Image with gradient overlay -->
+      <img
+        src="res/banner-br-full.png"
+        alt="Banner Image"
+        class="w-full h-full object-cover"
+      />
+    </section>
+
+    <section class="bg-menu-bg bg-cover">
+      <div class="container mx-auto py-10 md:py-32">
+        <div class="flex flex-col md:flex-row justify-center items-center">
+          <div
+            class="max-w-md mx-4 text-center md:text-left md:w-1/2 mb-6 md:mb-0 transform hover:scale-105 transition-transform"
+          >
+            <h2
+              class="text-3xl lg:text-6xl text-gray-custom font-spectral mb-6"
+            >
+              Tere tulemast!
+            </h2>
+            <p
+              class="max-w-sm text-xl text-gray-custom leading-relaxed font-light"
+              style="line-height: 2"
+            >
+              Pakume laia valikut professionaalseid iluteenuseid, mis aitavad
+              Teil end hästi tunda ja oma ilu veelgi rõhutada. Asume Tallinnas,
+              Mustamäel.
+            </p>
+            <div class="flex justify-center md:justify-start mt-10">
+              <a
+                href="https://app.booklux.com/book/kadri-ingerma-pusimeik"
+                target="_blank"
+                class="border border-gold-custom text-gray-custom font-light text-xl px-4 py-2 mt-5 transform transition duration-300 ease-in-out hover:scale-110 inline-block"
+              >
+                Broneeri aeg siin
+              </a>
+            </div>
+          </div>
+          <div
+            class="max-w-md md:w-1/2 mb-6 md:mb-0 flex justify-center md:justify-end transform hover:scale-105 transition-transform"
+          >
+            <img
+              src="res/profile-bg-modified.png"
+              alt="Image"
+              class="w-2/3 h-auto"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Icon Section -->
+    <section class="container mx-auto max-w-3xl px-4 py-8 md:my-10">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <!-- Icon 1 -->
+        <div class="text-center transform hover:scale-105 transition-transform">
+          <div class="mb-1">
+            <img
+              src="res/icons8-makeup-brush-100.png"
+              alt="Icon 1"
+              class="w-16 h-auto mx-auto"
+            />
+          </div>
+          <p class="text-lg font-light text-gold-custom">PÜSIMEIK</p>
+        </div>
+        <!-- Icon 2 -->
+        <div class="text-center transform hover:scale-105 transition-transform">
+          <div class="mb-1">
+            <img
+              src="res/icons8-eyebrow-100.png"
+              alt="Icon 2"
+              class="w-16 h-auto mx-auto"
+            />
+          </div>
+          <p class="text-lg font-light text-gold-custom">KULMUD JA RIPSMED</p>
+        </div>
+        <!-- Icon 3 -->
+        <div class="text-center transform hover:scale-105 transition-transform">
+          <div class="mb-1">
+            <img
+              src="res/icons8-mirror-100.png"
+              alt="Icon 3"
+              class="w-16 h-auto mx-auto"
+            />
+          </div>
+          <p class="text-lg font-light text-gold-custom">KOSMEETIK</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- LightWidget WIDGET -->
+    <div class="flex justify-center pb-5">
+      <script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script>
+      <iframe
+        src="//lightwidget.com/widgets/94be3cbde45b51ba880a0bb633a1ab7e.html"
+        scrolling="no"
+        allowtransparency="true"
+        style="width: 70%; border: 0; overflow: hidden"
+      ></iframe>
+    </div>
+
+    <!-- Footer Section -->
+    <section class="bg-menu-bg">
+      <footer class="container mx-auto max-w-4xl px-4 py-8 my-10">
+        <div
+          class="grid grid-cols-1 md:grid-cols-3 gap-8 text-left text-gray-custom font-light text-lg p-5"
+        >
+          <div>
+            <h3 class="text-lg font-semibold pb-4">Info</h3>
+            <p>Kadriko Grupp OÜ</p>
+            <p>Reg.nr 16246051</p>
+          </div>
+          <div>
+            <h3 class="text-lg font-semibold pb-4">Võta ühendust</h3>
+            <p>
+              Telefon:
+              <a href="tel:+37253987886" class="text-gold-custom"
+                >+372 53987886</a
+              >
+            </p>
+            <p>
+              E-mail:
+              <a href="mailto:Kadri.ingerma@gmail.com" class="text-gold-custom"
+                >Kadri.ingerma@gmail.com</a
+              >
+            </p>
+          </div>
+          <div>
+            <h3 class="text-lg font-semibold pb-4">Asukoht</h3>
+            <p>
+              Asume Tallinnas, Mustamäel Magistrali Keskuses, ilusalongis
+              Lõvilakk.
+            </p>
+            <p>Eraldi sissepääsuga õuest – II korruse autoparklast.</p>
+            <p>Salongi ees on tasuta parkimine (2h parkimiskellaga).</p>
+          </div>
+        </div>
+        <div
+          class="container mx-auto text-center text-gray-custom font-light text-sm"
+        >
+          &copy; 2024 Kadri Ingerma. Kõik õigused kaitstud..
+        </div>
+      </footer>
+    </section>
+    <!-- Mobile Navigation Overlay -->
+    <div
+      id="menu-overlay"
+      class="md:hidden fixed top-0 left-0 w-full h-full bg-black bg-opacity-80 hidden"
+    >
+      <!-- Mobile Navigation Content -->
+      <div class="flex items-center justify-center h-full">
+        <ul class="text-gold-custom font-light text-lg">
+          <li>
+            <a href="" class="block py-3 px-6 hover:bg-gray-700">avaleht</a>
+          </li>
+          <li>
+            <a href="pricelist.html" class="block py-3 px-6 hover:bg-gray-700"
+              >hinnakiri</a
+            >
+          </li>
+          <li>
+            <a href="portfolio.html" class="block py-3 px-6 hover:bg-gray-700"
+              >portfoolio</a
+            >
+          </li>
+          <li>
+            <a href="contact.html" class="block py-3 px-6 hover:bg-gray-700"
+              >kontakt</a
+            >
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <script src="src/script.js"></script>
+  </body>
+</html>
