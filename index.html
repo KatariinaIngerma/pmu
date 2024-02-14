@@ -27,7 +27,7 @@
       <nav
         class="text-center justify-center hidden md:block text-xl text-gray-custom p-5 font-light"
       >
-        <a href="#Avaleht" class="hover:text-white mx-2">avaleht</a>
+        <a href="#Avaleht" class="hover:text-white mx-2 active">avaleht</a>
         <a href="#Hinnakiri" class="hover:text-white mx-2">hinnakiri</a>
         <a href="#Portfoolio" class="hover:text-white mx-2">portfoolio</a>
         <a href="#Kontakt" class="hover:text-white mx-2">kontakt</a>
@@ -113,23 +113,26 @@
     </section>
 
     <!-- Icon Section -->
-    <section class="container mx-auto max-w-3xl px-4 py-8 md:my-10">
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+    
+    <section class="container mx-auto max-w-full px-4 py-0 ">
+      <div class="grid grid-cols-1 md:grid-cols-3 flex justify-center">
         <!-- Icon 1 -->
         <div class="flip-card">
-          <div class="flip-card-inner border border-gold-custom">
+          <div class="flip-card-inner">
             <div class="flip-card-front justify-center">
               <img
                 src="res/icons8-makeup-brush-100.png"
                 alt="Icon 1"
                 class="w-16 h-auto mx-auto mb-2"
               />
-              <p class="text-lg font-light text-gold-custom">PÜSIMEIK</p>
+              <p class="text-xl font-light mt-5 text-gold-custom">PÜSIMEIK</p>
             </div>
             <div class="flip-card-back bg-menu-bg">
-              <div class="bg-menu-bg p-5">
-                <h3 class="text-lg font-medium mb-4 text-gray-custom">PÜSIMEIK</h3>
-                <ul>
+              <div class="bg-menu-bg p-5 items-center">
+                <h3 class="text-xl font-medium mb-4 text-gray-custom">
+                  PÜSIMEIK
+                </h3>
+                <ul class="text-lg">
                   <li class="text-gray-custom">Kulmud karvtehnikas</li>
                   <li class="text-gray-custom">Kulmud puudertehnikas</li>
                   <li class="text-gray-custom">Silmalainer</li>
@@ -142,19 +145,21 @@
         <!-- Icon 2 -->
         <div class="flip-card">
           <div class="flip-card-inner">
-            <div class="flip-card-front justify-center">
+            <div class="bg-dark-gray justify-center">
               <img
                 src="res/icons8-eyebrow-100.png"
                 alt="Icon 2"
                 class="w-16 h-auto mx-auto mb-2"
               />
-              <p class="text-lg font-light text-gold-custom">
+              <p class="text-xl font-light text-gold-custom mt-5">
                 KULMUD JA RIPSMED
               </p>
             </div>
-            <div class="flip-card-back bg-menu-bg">
-              <div class="bg-menu-bg m-5">
-                <h3 class="text-lg font-medium mb-4 text-gray-custom">KULMUD JA RIPSMED</h3>
+            <div class="flip-card-back">
+              <div class="bg-dark-gray p-5">
+                <h3 class="text-lg font-medium mb-4 text-gray-custom">
+                  KULMUD JA RIPSMED
+                </h3>
                 <ul>
                   <li class="text-gray-custom">Kulmude modelleerimine</li>
                   <li class="text-gray-custom">Kulmude värvimine</li>
@@ -175,11 +180,13 @@
                 alt="Icon 3"
                 class="w-16 h-auto mx-auto mb-2"
               />
-              <p class="text-lg font-light text-gold-custom">KOSMEETIK</p>
+              <p class="text-xl font-light text-gold-custom mt-5">KOSMEETIK</p>
             </div>
             <div class="flip-card-back bg-menu-bg">
               <div class="bg-menu-bg p-5">
-                <h3 class="text-lg font-medium mb-4 text-gray-custom">KOSMEETIK</h3>
+                <h3 class="text-lg font-medium mb-4 text-gray-custom">
+                  KOSMEETIK
+                </h3>
                 <ul>
                   <li class="text-gray-custom">Näohooldused</li>
                   <li class="text-gray-custom">Kehahooldus</li>
@@ -190,8 +197,18 @@
           </div>
         </div>
       </div>
+      <div class="flex justify-center md:justify-center">
+        <a
+          href="https://app.booklux.com/book/kadri-ingerma-pusimeik"
+          target="_blank"
+          class="border border-gold-custom text-gray-custom font-light text-xl px-4 py-2 mt-5 transform transition duration-300 ease-in-out hover:scale-110 inline-block"
+        >
+          Vaata hinnakirja
+        </a>
+      </div>
     </section>
 
+  
     <!-- LightWidget WIDGET -->
     <div class="flex justify-center pb-5 pt-10">
       <script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script>
