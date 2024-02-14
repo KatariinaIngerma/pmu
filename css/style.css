@@ -4,6 +4,9 @@
 .text-gold-custom {
     color: #ECDF8F;
 }
+.bg-gold-custom{
+  background-color: #ECDF8F;
+}
 .bg-dark-gray {
   background-color: #181717;
   width: 100%;
@@ -14,6 +17,9 @@
   flex-direction: column;
   align-items: center;
   z-index: 1;
+}
+.bg-dark-gray-only {
+  background-color: #181717;
 }
 
 .text-gray-custom {
@@ -42,7 +48,7 @@
     position: relative;
     margin-bottom: 50px; /* Example margin */
     width: 100%;
-   height: 400px; /* Adjust height as needed */
+    height: 400px; /* Adjust height as needed */
 
 }
 
