@@ -77,7 +77,7 @@
             class="max-w-md mx-4 text-center md:text-left md:w-1/2 mb-6 md:mb-0 transform hover:scale-105 transition-transform"
           >
             <h2
-              class="text-3xl lg:text-6xl text-gray-custom font-spectral mb-6"
+              class="text-3xl lg:text-6xl text-gray-custom font-spectral mb-6 whitespace-nowrap"
             >
               Tere tulemast!
             </h2>
@@ -116,43 +116,84 @@
     <section class="container mx-auto max-w-3xl px-4 py-8 md:my-10">
       <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
         <!-- Icon 1 -->
-        <div class="text-center transform hover:scale-105 transition-transform">
-          <div class="mb-1">
-            <img
-              src="res/icons8-makeup-brush-100.png"
-              alt="Icon 1"
-              class="w-16 h-auto mx-auto"
-            />
+        <div class="flip-card">
+          <div class="flip-card-inner border border-gold-custom">
+            <div class="flip-card-front justify-center">
+              <img
+                src="res/icons8-makeup-brush-100.png"
+                alt="Icon 1"
+                class="w-16 h-auto mx-auto mb-2"
+              />
+              <p class="text-lg font-light text-gold-custom">PÜSIMEIK</p>
+            </div>
+            <div class="flip-card-back bg-menu-bg">
+              <div class="bg-menu-bg p-5">
+                <h3 class="text-lg font-medium mb-4 text-gray-custom">PÜSIMEIK</h3>
+                <ul>
+                  <li class="text-gray-custom">Kulmud karvtehnikas</li>
+                  <li class="text-gray-custom">Kulmud puudertehnikas</li>
+                  <li class="text-gray-custom">Silmalainer</li>
+                  <li class="text-gray-custom">Huulte püsimeik</li>
+                </ul>
+              </div>
+            </div>
           </div>
-          <p class="text-lg font-light text-gold-custom">PÜSIMEIK</p>
         </div>
         <!-- Icon 2 -->
-        <div class="text-center transform hover:scale-105 transition-transform">
-          <div class="mb-1">
-            <img
-              src="res/icons8-eyebrow-100.png"
-              alt="Icon 2"
-              class="w-16 h-auto mx-auto"
-            />
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front justify-center">
+              <img
+                src="res/icons8-eyebrow-100.png"
+                alt="Icon 2"
+                class="w-16 h-auto mx-auto mb-2"
+              />
+              <p class="text-lg font-light text-gold-custom">
+                KULMUD JA RIPSMED
+              </p>
+            </div>
+            <div class="flip-card-back bg-menu-bg">
+              <div class="bg-menu-bg m-5">
+                <h3 class="text-lg font-medium mb-4 text-gray-custom">KULMUD JA RIPSMED</h3>
+                <ul>
+                  <li class="text-gray-custom">Kulmude modelleerimine</li>
+                  <li class="text-gray-custom">Kulmude värvimine</li>
+                  <li class="text-gray-custom">Kulmude lamineerimine</li>
+                  <li class="text-gray-custom">Ripsmete värvimine</li>
+                  <li class="text-gray-custom">Lash lift</li>
+                </ul>
+              </div>
+            </div>
           </div>
-          <p class="text-lg font-light text-gold-custom">KULMUD JA RIPSMED</p>
         </div>
         <!-- Icon 3 -->
-        <div class="text-center transform hover:scale-105 transition-transform">
-          <div class="mb-1">
-            <img
-              src="res/icons8-mirror-100.png"
-              alt="Icon 3"
-              class="w-16 h-auto mx-auto"
-            />
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front justify-center">
+              <img
+                src="res/icons8-mirror-100.png"
+                alt="Icon 3"
+                class="w-16 h-auto mx-auto mb-2"
+              />
+              <p class="text-lg font-light text-gold-custom">KOSMEETIK</p>
+            </div>
+            <div class="flip-card-back bg-menu-bg">
+              <div class="bg-menu-bg p-5">
+                <h3 class="text-lg font-medium mb-4 text-gray-custom">KOSMEETIK</h3>
+                <ul>
+                  <li class="text-gray-custom">Näohooldused</li>
+                  <li class="text-gray-custom">Kehahooldus</li>
+                  <li class="text-gray-custom">Meeste hooldus</li>
+                </ul>
+              </div>
+            </div>
           </div>
-          <p class="text-lg font-light text-gold-custom">KOSMEETIK</p>
         </div>
       </div>
     </section>
 
     <!-- LightWidget WIDGET -->
-    <div class="flex justify-center pb-5">
+    <div class="flex justify-center pb-5 pt-10">
       <script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script>
       <iframe
         src="//lightwidget.com/widgets/94be3cbde45b51ba880a0bb633a1ab7e.html"
@@ -201,7 +242,7 @@
         <div
           class="container mx-auto text-center text-gray-custom font-light text-sm"
         >
-          &copy; 2024 Kadri Ingerma. Kõik õigused kaitstud..
+          &copy; 2024 Kadri Ingerma. Kõik õigused kaitstud.
         </div>
       </footer>
     </section>
