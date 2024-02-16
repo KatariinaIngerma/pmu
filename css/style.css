@@ -87,3 +87,12 @@
     z-index: 0;
   }
   
+
+  .h-px {
+    height: 0.25px; /* Adjust this value to make the line thinner or thicker */
+  }
+
+  .bg-gray-custom{
+    color: #787878;
+    border-style: inset;
+  }
