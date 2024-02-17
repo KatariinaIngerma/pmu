@@ -49,7 +49,7 @@
 
 .flip-card {
     position: relative;
-    margin-bottom: 50px; /* Example margin */
+     /* Example margin */
     width: 100%;
     height: 400px; /* Adjust height as needed */
 
@@ -99,3 +99,7 @@
     color: #787878;
     border-style: inset;
   }
+
+
+
+  

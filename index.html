@@ -105,7 +105,7 @@
             <img
               src="res/profile-bg-modified.png"
               alt="Image"
-              class="w-2/3 h-auto mt-5 md:mt-0"
+              class="hidden md:block w-2/3 h-auto"
             />
           </div>
         </div>
@@ -113,8 +113,8 @@
     </section>
 
     <!-- Icon Section -->
-    
-    <section class="container mx-auto max-w-full px-4 py-0 ">
+
+    <section class="container mx-auto max-w-full px-4 py-0">
       <div class="grid grid-cols-1 md:grid-cols-3 flex justify-center">
         <!-- Icon 1 -->
         <div class="flip-card">
@@ -128,10 +128,10 @@
               <p class="text-xl font-light mt-5 text-gold-custom">PÜSIMEIK</p>
             </div>
             <div class="flip-card-back bg-menu-bg justify-center">
-              <div class="bg-menu-bg p-5 justify-center text-xl md:text-2xl font-light">
-                <h3 class="font-medium mb-4 text-gray-custom">
-                  PÜSIMEIK
-                </h3>
+              <div
+                class="bg-menu-bg p-5 justify-center text-xl md:text-2xl font-light"
+              >
+                <h3 class="font-medium mb-4 text-gray-custom">PÜSIMEIK</h3>
                 <ul class="">
                   <li class="text-gray-custom">Kulmud karvtehnikas</li>
                   <li class="text-gray-custom">Kulmud puudertehnikas</li>
@@ -141,7 +141,7 @@
                     <a
                       href="https://app.booklux.com/book/kadri-ingerma-pusimeik"
                       target="_blank"
-                      class=" border border-gold-custom text-white font-light text-xl px-4 py-2 mt-5 transform transition duration-300 ease-in-out hover:scale-110 inline-block"
+                      class="border border-gold-custom text-white font-light text-xl px-4 py-2 mt-5 transform transition duration-300 ease-in-out hover:scale-110 inline-block"
                     >
                       Vaata hinnakirja
                     </a>
@@ -164,7 +164,9 @@
                 KULMUD JA RIPSMED
               </p>
             </div>
-            <div class="flip-card-back bg-dark-gray justify-center items-center">
+            <div
+              class="flip-card-back bg-dark-gray justify-center items-center"
+            >
               <div class="bg-dark-gray-only p-5 text-xl md:text-2xl font-light">
                 <h3 class="font-medium mb-4 text-gray-custom">
                   KULMUD JA RIPSMED
@@ -179,7 +181,7 @@
                     <a
                       href="https://app.booklux.com/book/kadri-ingerma-pusimeik"
                       target="_blank"
-                      class=" border border-gold-custom text-white font-light text-xl px-4 py-2 mt-5 transform transition duration-300 ease-in-out hover:scale-110 inline-block"
+                      class="border border-gold-custom text-white font-light text-xl px-4 py-2 mt-5 transform transition duration-300 ease-in-out hover:scale-110 inline-block"
                     >
                       Vaata hinnakirja
                     </a>
@@ -202,11 +204,11 @@
             </div>
             <div class="flip-card-back bg-menu-bg justify-center">
               <div class="bg-menu-bg p-5 text-xl md:text-2xl font-light">
-                <h3 class="font-medium mb-4 text-gray-custom">
-                  KOSMEETIK
-                </h3>
+                <h3 class="font-medium mb-4 text-gray-custom">KOSMEETIK</h3>
                 <ul>
-                  <li class="text-gray-custom">Näonaha sügav kosmeetiline puhastus</li>
+                  <li class="text-gray-custom">
+                    Näonaha sügav kosmeetiline puhastus
+                  </li>
                   <li class="text-gray-custom">Pinguldav näohooldus</li>
                   <li class="text-gray-custom">Kuperoosa vastane näohooldus</li>
                   <li class="text-gray-custom">Niisutav näohooldus</li>
@@ -216,7 +218,7 @@
                     <a
                       href="https://app.booklux.com/book/kadri-ingerma-pusimeik"
                       target="_blank"
-                      class=" border border-gold-custom text-white font-light text-xl px-4 py-2 mt-5 transform transition duration-300 ease-in-out hover:scale-110 inline-block"
+                      class="border border-gold-custom text-white font-light text-xl px-4 py-2 mt-5 transform transition duration-300 ease-in-out hover:scale-110 inline-block"
                     >
                       Vaata hinnakirja
                     </a>
@@ -229,17 +231,18 @@
       </div>
     </section>
 
-  
-    <!-- LightWidget WIDGET -->
-    <div class="flex justify-center pb-5 pt-10">
-      <script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script>
-      <iframe
-        src="//lightwidget.com/widgets/94be3cbde45b51ba880a0bb633a1ab7e.html"
-        scrolling="no"
-        allowtransparency="true"
-        style="width: 70%; border: 0; overflow: hidden"
-      ></iframe>
-    </div>
+    <!-- Animated gallery -->
+    <section class="pt-0">
+      <script
+        src="https://static.elfsight.com/platform/platform.js"
+        data-use-service-core
+        defer
+      ></script>
+      <div
+        class="elfsight-app-35e2233b-5864-4870-862e-5737bd7061c1"
+        data-elfsight-app-lazy
+      ></div>
+    </section>
 
     <!-- Footer Section -->
     <section class="bg-menu-bg">
