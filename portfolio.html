@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kadri Ingerma</title>
+    <!-- Add Tailwind CSS CDN link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Spectral:wght@300&display=swap"
+      rel="stylesheet"
+    />
+
+    <link href="css/style.css" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-body-gray h-screen overflow-y-auto">
+    <!-- Navigation menu for desktop -->
+    <header class="bg-menu-bg flex items-center justify-between px-4 py-2">
+      <!--Logo-->
+      <img src="res/no-bg-logo.png" alt="Logo" class="h-8 mb-2" />
+      <nav
+        class="text-center justify-center hidden md:block text-xl text-gray-custom p-5 font-light"
+      >
+        <a href="index.html" class="hover:text-white mx-2">avaleht</a>
+        <a href="pricelist.html" class="hover:text-white mx-2">hinnakiri</a>
+        <a href="portfolio.html" class="hover:text-white mx-2 active">portfoolio</a>
+        <a href="contact.html" class="hover:text-white mx-2">kontakt</a>
+      </nav>
+      <a
+        href="https://app.booklux.com/book/kadri-ingerma-pusimeik"
+        target="_blank"
+        class="hidden md:block border border-gold-custom text-gray-custom font-light text-xl px-4 py-2 transform transition duration-300 ease-in-out hover:scale-110"
+      >
+        Broneeri
+      </a>
+
+      <!--Navigation menu for mobile-->
+      <div class="md:hidden flex justify-end pr-4">
+        <button id="menu-toggle" class="text-gold-custom focus:outline-none">
+          <svg
+            class="w-6 h-6"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M4 6h16M4 12h16M4 18h16"
+            ></path>
+          </svg>
+        </button>
+      </div>
+    </header>
+    <!-- Banner Section -->
+    <section class="relative bg-cover">
+      <!-- Image with gradient overlay -->
+      <img
+        src="res/banner-br-3.png"
+        alt="Banner Image"
+        class="w-full h-full object-cover"
+      />
+    </section>
+
+    <!-- Headline Section-->
+    <section class="bg-menu-bg bg-cover p-5 lg:p-0">
+      <div class="container mx-auto py-10 max-w-4xl">
+        <a
+          href="index.html"
+          class="hover:text-white mx-2 text-2xl font-light text-gray-custom"
+        >
+          avaleht
+        </a>
+        <span class="text-gray-custom text-2xl">&#62;</span>
+        <a
+          href="portfolio.html"
+          class="hover:text-white mx-2 text-2xl font-light text-gray-custom"
+        >
+          portfoolio
+        </a>
+        <h2
+          class="text-4xl text-gray-custom font-spectral mt-6 whitespace-nowrap"
+        >
+          portfoolio
+        </h2>
+      </div>
+    </section>
+
+    <section class="flex justify-center">
+    <div class="album">
+        <div class="responsive-container-block bg">
+          <div class="responsive-container-block img-cont">
+            <img class="img" src="res/gallery/1.jpg">
+            <img class="img" src="res/gallery/2.jpg">
+            <img class="img img-big" src="res/gallery/9.jpg">
+          </div>
+          <div class="responsive-container-block img-cont">
+            <img class="img img-big" src="res/gallery/7.jpg">
+            <img class="img img-big img-last" src="res/gallery/6.jpg">
+            <img class="img img-last" src="res/gallery/3.jpg">
+          </div>
+          <div class="responsive-container-block img-cont">
+            <img class="img" src="res/gallery/8.jpg">
+            <img class="img" src="res/gallery/4.jpg">
+            <img class="img" src="res/gallery/5.jpg">
+            
+          </div>
+        </div>
+      </div>
+    </section>
+
+      <div class="col-span-2 flex items-center justify-center p-5">
+      <button
+        type="submit"
+        class="border border-gold-custom text-white font-light text-2xl px-4 py-2 transform transition duration-300 ease-in-out hover:scale-110"
+        style="background-color: #d8c690;"
+      >
+        Saada sõnum</i>
+      </button>
+
+      </div>
+    <!-- Footer Section -->
+    <section class="bg-menu-bg">
+      <footer class="container mx-auto max-w-4xl px-4">
+        <div
+          class="grid grid-cols-1 md:grid-cols-3 gap-8 text-left text-gray-custom font-light text-lg p-5"
+        >
+          <div>
+            <h3 class="text-lg font-semibold pb-4">Info</h3>
+            <p>Kadriko Grupp OÜ</p>
+            <p>Reg.nr 16246051</p>
+          </div>
+          <div>
+            <h3 class="text-lg font-semibold pb-4">Võta ühendust</h3>
+            <p>
+              Telefon:
+              <a href="tel:+37253987886" class="text-gold-custom"
+                >+372 53987886</a
+              >
+            </p>
+            <p>
+              E-mail:
+              <a href="mailto:Kadri.ingerma@gmail.com" class="text-gold-custom"
+                >Kadri.ingerma@gmail.com</a
+              >
+            </p>
+          </div>
+          <div>
+            <h3 class="text-lg font-semibold pb-4">Asukoht</h3>
+            <p>
+              Asume Tallinnas, Mustamäel Magistrali Keskuses, ilusalongis
+              Lõvilakk.
+            </p>
+            <p>Eraldi sissepääsuga õuest – II korruse autoparklast.</p>
+            <p>Salongi ees on tasuta parkimine (2h parkimiskellaga).</p>
+          </div>
+        </div>
+        <div
+          class="container mx-auto text-center text-gray-custom font-light text-sm"
+        >
+          &copy; 2024 Kadri Ingerma. Kõik õigused kaitstud.
+        </div>
+      </footer>
+    </section>
+    <!-- Mobile Navigation Overlay -->
+    <div
+      id="menu-overlay"
+      class="md:hidden fixed top-0 left-0 w-full h-full bg-black bg-opacity-80 hidden"
+    >
+      <!-- Mobile Navigation Content -->
+      <div class="flex items-center justify-center h-full">
+        <ul class="text-gold-custom font-light text-lg">
+          <li>
+            <a href="index.html" class="block py-3 px-6 hover:bg-gray-700"
+              >avaleht</a
+            >
+          </li>
+          <li>
+            <a href="pricelist.html" class="block py-3 px-6 hover:bg-gray-700"
+              >hinnakiri</a
+            >
+          </li>
+          <li>
+            <a href="portfolio.html" class="block py-3 px-6 hover:bg-gray-700"
+              >portfoolio</a
+            >
+          </li>
+          <li>
+            <a href="contact.html" class="block py-3 px-6 hover:bg-gray-700"
+              >kontakt</a
+            >
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <script src="src/script.js"></script>
+  </body>
+</html>
