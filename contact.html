@@ -81,7 +81,7 @@
         </a>
         <span class="text-gray-custom text-2xl">&#62;</span>
         <a
-          href="pricelist.html"
+          href="contact.html"
           class="hover:text-white mx-2 text-2xl font-light text-gray-custom"
         >
           kontakt
@@ -131,9 +131,74 @@
       </div>
     </section>
 
+      <!-- Contact Section -->
+      <section class="px-5 pt-20 text-center py-10">
+        <h1 class="text-gray-custom font-light text-4xl md:text-6xl mb-6">Võta ühendust!</h1>
+        <p class="text-lg mb-6 font-mono text-gold-custom-2">
+          Tekkis mõni küsimus?
+        </p>
+  
+        <!-- Contact Form -->
+        <form
+          action="#"
+          method="post"
+          class="max-w-3xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-4 text-left"
+        >
+          <div class="mb-4 col-span-2 md:col-span-1">
+            <label for="name" class="text-white text-sm font-semibold block mb-2"
+              >Ees- ja perenimi</label
+            >
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Ees- ja perenimi"
+              class="w-full px-4 py-2 border-b-2 border-gray-600 focus:outline-none focus:border-gold-custom bg-transparent text-white"
+            />
+          </div>
+  
+          <div class="mb-4 col-span-2 md:col-span-1">
+            <label for="email" class="text-white text-sm font-semibold block mb-2"
+              >E-mail</label
+            >
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="E-mail"
+              class="w-full px-4 py-2 border-b-2 border-gray-600 focus:outline-none focus:border-gold-custom bg-transparent text-white"
+            />
+          </div>
+  
+          <div class="mb-4 col-span-2">
+            <label
+              for="message"
+              class="text-white text-sm font-semibold block mb-2"
+              >Saada sõnum</label
+            >
+            <textarea
+              id="message"
+              name="message"
+              rows="4"
+              placeholder="Kirjuta oma sõnum siia..."
+              class="w-full px-4 py-2 border-b-2 border-gray-600 focus:outline-none focus:border-gold-custom bg-transparent text-white"
+            ></textarea>
+          </div>
+  
+          <div class="col-span-2 flex items-center justify-center">
+            <button
+              type="submit"
+              class="border border-gold-custom text-gray-custom font-light text-xl px-4 py-2 transform transition duration-300 ease-in-out hover:scale-110"
+            >
+              Saada sõnum <i class="fas fa-arrow-right ml-2"></i>
+            </button>
+          </div>
+        </form>
+      </section>
+
     <!-- Footer Section -->
     <section class="bg-menu-bg">
-      <footer class="container mx-auto max-w-4xl px-4 py-8 my-10">
+      <footer class="container mx-auto max-w-4xl px-4">
         <div
           class="grid grid-cols-1 md:grid-cols-3 gap-8 text-left text-gray-custom font-light text-lg p-5"
         >
