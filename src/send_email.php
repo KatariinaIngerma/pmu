@@ -9,10 +9,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $body = "Name: $name\nEmail: $email\n\nMessage:\n$message";
 
     if (mail($to, $subject, $body)) {
-        echo "Message sent successfully!";
+        echo "Sõnum saadetud!";
     } else {
         header("HTTP/1.1 500 Internal Server Error");
-        echo "Error: Message could not be sent.";
+        echo "Error: Sõnumit ei õnnestunud saata.";
     }
 }
 ?>

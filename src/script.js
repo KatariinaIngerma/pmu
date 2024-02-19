@@ -30,41 +30,6 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
-document.addEventListener('DOMContentLoaded', function() {
-  // Get the form element
-  var form = document.getElementById('contactForm');
-
-  // Add submit event listener to the form
-  form.addEventListener('submit', function(event) {
-    // Prevent the default form submission
-    event.preventDefault();
-
-    // Create a new FormData object
-    var formData = new FormData(this);
-
-    // Send the form data using fetch API
-    fetch('send_email.php', {
-      method: 'POST',
-      body: formData
-    })
-    .then(function(response) {
-      // Check if response is OK
-      if (response.ok) {
-        // Show success message
-        document.getElementById('response-message').innerHTML = '<p class="text-green-500">Message sent successfully!</p>';
-        // Optionally, clear form fields
-        form.reset();
-      } else {
-        // Show error message
-        document.getElementById('response-message').innerHTML = '<p class="text-red-500">Error: Message could not be sent.</p>';
-      }
-    })
-    .catch(function(error) {
-      // Show error message
-      document.getElementById('response-message').innerHTML = '<p class="text-red-500">Error: ' + error.message + '</p>';
-    });
-  });
-});
 
 
 
